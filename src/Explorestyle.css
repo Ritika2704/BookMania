@@ -1,0 +1,46 @@
+.book-genres-container {
+  background-color: white;
+  color: rgb(98, 84, 243);
+  padding: 20px;
+}
+
+.book-genres-title {
+  margin-bottom: 20px;
+}
+
+.book-genres-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.book-genres-list li {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.book-genres-list li:hover {
+  text-decoration: underline;
+}
+
+.book-genres-details {
+  margin-top: 20px;
+}
+
+.book-genres-details h3 {
+  margin-bottom: 10px;
+}
+
+.book-genres-details p {
+  margin-bottom: 10px;
+}
+
+.book-genres-details ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.book-genres-details li {
+  margin-bottom: 5px;
+}
