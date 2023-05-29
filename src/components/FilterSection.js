@@ -68,7 +68,7 @@ const FilterSection = () => {
         </div>
       </div>
 
-      <div className="filter-company">
+      {/* <div className="filter-company">
         <h3>Company</h3>
 
         <form action="#">
@@ -86,7 +86,7 @@ const FilterSection = () => {
             })}
           </select>
         </form>
-      </div>
+      </div> */}
 
       <div className="filter-colors colors">
         <h3>Colors</h3>

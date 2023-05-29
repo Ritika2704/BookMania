@@ -26,7 +26,7 @@ const CartItem = ({ id, name, image, color, price, amount }) => {
         <div>
           <p>{name}</p>
           <div className="color-div">
-            <p>color:</p>
+          
             <div
               className="color-style"
               style={{ backgroundColor: color, color: color }}></div>

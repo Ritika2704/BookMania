@@ -8,10 +8,13 @@ import Cart from "./Cart";
 import SingleProduct from "./SingleProduct";
 import ErrorPage from "./ErrorPage";
 import Explore from "./Explore";
+import CheckoutPage from "./CheckoutPage";
 import { GlobalStyle } from "./GlobalStyle";
 import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Thankyou from "./Thankyou";
+
 
 const App = () => {
   const theme = {
@@ -50,6 +53,8 @@ const App = () => {
           <Route path="/products" element={<Products />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/explore" element={<Explore/>} />
+          <Route path="/thankyou" element={<Thankyou/>} />
+          <Route path="/CheckoutPage" element={<CheckoutPage/>} />
           <Route path="/singleproduct/:id" element={<SingleProduct />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<ErrorPage />} />

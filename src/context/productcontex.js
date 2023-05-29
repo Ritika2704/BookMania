@@ -92,7 +92,7 @@ const AppProvider = ({ children }) => {
       }
       if(res2[4].id ==="thapaserialnoe"){
         res2[4].name ='The Big Sheep';
-        res2[4].image = 'https://cloud.firebrandtech.com/api/v2/img/111/9780785841746/XL';
+        res2[4].image = 'https://m.media-amazon.com/images/I/9199BB0DOcL.jpg';
         res2[4].price =100000;
         res2[4].category ='Mystery';
       }

@@ -74,10 +74,16 @@ const Cart = () => {
               <p>
                 <FormatPrice price={shipping_fee + total_price} />
               </p>
+              <NavLink to="/CheckoutPage">
+              <Button className="btn btn-clear" onClick={clearCart} >
+              Checkout
+              </Button>
+          </NavLink>
             </div>
           </div>
         </div>
       </div>
+      
     </Wrapper>
   );
 };

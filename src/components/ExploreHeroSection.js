@@ -14,12 +14,11 @@ const ExploreHeroSection = ({ myData }) => {
             best Book from </h1>
             <h1> {name} </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              atque temporibus veniam doloribus libero ad error omnis voluptates
-              animi! Suscipit sapiente.
+            your ultimate destination to discover
+             and explore different book genres. Here, we provide valuable insights and recommendations about various genres to help you find your next favorite read.
             </p>
             <NavLink to="/Products">
-              <Button>show now</Button>
+              <Button>shop now</Button>
             </NavLink>
           </div>
           {/* our homepage image  */}

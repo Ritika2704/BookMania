@@ -14,9 +14,8 @@ const AboutHeroSection = ({ myData }) => {
             favourite Book </h1>
             <h1> {name} </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              atque temporibus veniam doloribus libero ad error omnis voluptates
-              animi! Suscipit sapiente.
+            Our mission is to provide readers with an exceptional experience by offering a diverse selection 
+            of books across various genres.
             </p>
             <NavLink to="/Products">
               <Button>show now</Button>

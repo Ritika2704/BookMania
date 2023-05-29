@@ -15,8 +15,8 @@ const clientId = process.env.REACT_APP_CLIENT_ID;
 
 root.render(
   <Auth0Provider
-    domain={domain}
-    clientId={clientId}
+    domain="dev-kafdt72uhqcc1r1a.us.auth0.com"
+    clientId="udMgImatuN6KFP36iNfbSBTWOtiGVaLG"
     redirectUri={window.location.origin}>
     <AppProvider>
       <FilterContextProvider>
